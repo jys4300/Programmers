@@ -4,11 +4,11 @@ class ForTest6
 {
 	public static void main (String args[])
 	{
-		int i, num, result = 0;
+		int a, num, result = 0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("정수 10개를 입력하세요 : ");
 	
-		for(i = 0; i < 10; i++){
+		for(a = 0; a < 10; a++){
 			num = sc.nextInt();
 		if(num % 3 == 0 || num % 5 == 0){
 			result = result + 1;
